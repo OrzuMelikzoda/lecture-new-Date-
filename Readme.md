@@ -2,7 +2,7 @@
 
 ### С помошью пустого конструктора Date без параметров. В этом случае зданный объект хранит текущие дату и время
 
-![alt text](code.png)
+![code](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/b414d742-7d68-4f1b-8a31-50f4e7b1e9ef)
 
 ### В конструктор Date передается количества миллисекунд, которые прошли с начала эпохи, то есть с 1 января 1970 года 00:00:00 GMT:
 
@@ -10,11 +10,13 @@
 
 ### В конструктор Date передаются день, месяц и год:
 
-![alt text](2.png)
+![2](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/3bb2a9f1-c5db-437c-959e-85e8f0263ec3)
+
 
 ### Четвертый способ состоит в передаче в конструктор Date всех параметров даты и времени:
 
-![alt text](3.png)
+![3](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/23cab928-8ba2-4e87-b459-ef760e4c04ce)
+
 
 ### В данном случае используются по порядку следующие параметры: new Date(год, месяц, число, час, минуты, секунды, миллисекунды). При этом надо учитывать, что отсчет месяцев начинается с нуля, то есть январь - 0, а декабрь - 11.
 
@@ -25,8 +27,9 @@
 ### getMonth(): возвращает номер месяца (отсчет начинается с нуля, то есть месяц с номер 0 - январь)
 ### getFullYear(): возвращает год
 
-![alt text](4.png)
-![alt text](5.png)
+![4](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/865eab88-58cd-4c6c-935c-bb32b1c6a2bf)
+
+![5](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/3f2da517-d8ab-40b5-8245-58eeaf5e7c13)
 
 ### getHours(): возвращает час (от 0 до 23)
 ### getMinutes(): возвращает минуты (от 0 до 59)
@@ -34,7 +37,8 @@
 ### getMilliseconds(): возвращает миллисекунды (от 0 до 999)
 ### getTime(): возвращает числовое значение, соответствующее указанной дате по всемирному координированному времени. 
 
-![alt text](104.png)
+![104](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/1fe603bf-3709-4539-88e4-be4b519d97ab)
+
 
 # Установка даты и времени
 
@@ -43,13 +47,18 @@
 ### setDate(): установка дня в дате
 ### setMonth(): уставовка месяца (отсчет начинается с нуля, то есть месяц с номер 0 - январь)
 ### setFullYear(): устанавливает год
+
+![105](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/313b9b6d-3eef-4c4b-9476-585079d1c9b3)
+
 ### setHours(): установка часа
 ### setMinutes(): установка минут
 ### setSeconds(): установка секунд
 ### setMilliseconds(): установка миллисекунд
 
-![alt text](106.png)
+![106](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/4ba2a022-76d4-4209-b1a1-ec35b1d9e1ed)
 
 ### setTime() устанавливает время объекта Date в значение, представляемое количеством миллисекунд, прошедших с 1 января 1970 00:00:00
 
-![alt text](107.png)
+![107](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/d519d7ca-d7b3-4164-be50-3f595ec7657d)
+
+![alt text](106.png)
