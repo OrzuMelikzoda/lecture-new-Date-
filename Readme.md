@@ -60,5 +60,3 @@
 ### setTime() устанавливает время объекта Date в значение, представляемое количеством миллисекунд, прошедших с 1 января 1970 00:00:00
 
 ![107](https://github.com/OrzuMelikzoda/lecture-new-Date-/assets/167527624/d519d7ca-d7b3-4164-be50-3f595ec7657d)
-
-![alt text](106.png)
